@@ -3,6 +3,9 @@
 body {
     font-family: var(--bs-body-font-family);
     line-height: var(--bs-body-line-height);
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
 }
 
 
@@ -34,6 +37,10 @@ body {
     font-size: 28px;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+.nav-link {
+    margin: .5rem;
 }
 
 .navbar-nav li:hover>ul.dropdown-menu {
@@ -76,3 +83,32 @@ body {
 
 
 /* ------------------------------------------------------end home scection */
+
+
+/* ------------------------------------------------------end about scection */
+
+.p-10 {
+    padding: 4rem;
+}
+
+.about-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.text-h5 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+
+
+/* ------------------------------------------------------end about scection */
