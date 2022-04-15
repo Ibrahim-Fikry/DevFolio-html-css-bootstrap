@@ -179,3 +179,58 @@ body {
 
 
 /* ------------------------------------------------------end services scection */
+
+
+/* ------------------------------------------------------      work scection */
+
+.work-card img {
+    transition: 1s;
+}
+
+.workcardimg {
+    overflow: hidden;
+}
+
+.work-card:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+/* work part2 */
+
+.fluidwork2 {
+    background-image: url(images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 0%;
+}
+
+.mb-work2 {
+    margin-bottom: 5rem;
+}
+
+.mb-work2 h5 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem 0;
+    display: block;
+    font-size: 1.4rem;
+}
+
+.mb-work2 p {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.workbtn {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+}
+
+
+/* ------------------------------------------------------end work scection */
