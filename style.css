@@ -283,3 +283,92 @@ body {
 
 
 /* ------------------------------------------------------end blog scection */
+
+
+/* ------------------------------------------------------ contact scection */
+
+.title-box-2 {
+    padding-bottom: 2.2rem;
+}
+
+.contact-h3 {
+    color: #1e1e1e;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.contact-title {
+    border-bottom: 4px solid #007aff;
+    padding-bottom: .2rem;
+}
+
+.list-ico {
+    list-style: none;
+}
+
+.socials i {
+    margin-right: .5rem;
+    font-size: large
+}
+
+.socials ul {
+    display: flex;
+    list-style: none;
+}
+
+.socials li {
+    margin: .3rem;
+}
+
+.socials i {
+    font-size: large
+}
+
+.socials i {
+    color: #007aff;
+    font-size: 1rem;
+    padding: .5rem;
+    border: #007aff 4px solid;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.socials i:hover {
+    transition: 1s;
+    color: white;
+    background-color: #007aff;
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-social ul {
+    list-style: none;
+}
+
+.contact-social i {
+    color: #0078ff;
+}
+
+
+/* ---------------------- */
+
+.button-rouded {
+    margin: 3rem;
+    border-radius: 5rem;
+    transition: .5s;
+}
+
+.button-rouded:hover {
+    border: #bdd2e9 4px solid;
+    opacity: .7;
+    transition: .5s;
+}
+
+
+/* ------------------------------------------------------end contact scection */
+
+.bg-footer {
+    background-color: #0078ff;
+    color: #fff;
+}
